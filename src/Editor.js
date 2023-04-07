@@ -12,7 +12,6 @@ import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import SettingsIcon from '@material-ui/icons/Settings';
 
 import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
 
 export default function Editor(props) {
     const { language, displayName, value, onChange } = props;
