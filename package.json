@@ -18,6 +18,8 @@
         "react-codemirror2": "^7.2.1",
         "react-dom": "^16.13.1",
         "react-scripts": "5.0.1",
+        "react-split-pane": "^0.1.92",
+        "styled-components": "^5.3.9",
         "web-vitals": "^2.1.4"
     },
     "scripts": {
