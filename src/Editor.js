@@ -8,8 +8,11 @@ import { Controlled as ControlledEditor } from "react-codemirror2";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCompressAlt, faExpandAlt } from "@fortawesome/free-solid-svg-icons";
 
-import ArrowDropDownSharpIcon from "@mui/icons-material/ArrowDropDownSharp";
-import SettingsSharpIcon from "@mui/icons-material/SettingsSharp";
+import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
+import SettingsIcon from '@material-ui/icons/Settings';
+
+import AppBar from "@material-ui/core/AppBar";
+import Toolbar from "@material-ui/core/Toolbar";
 
 export default function Editor(props) {
     const { language, displayName, value, onChange } = props;
@@ -21,8 +24,10 @@ export default function Editor(props) {
 
     return (
         <div className={`editor-container ${open ? "" : "collapsed"}`}>
-            <ArrowDropDownSharpIcon />
-            <SettingsSharpIcon />
+            <AppBar>
+                <ArrowDropDownIcon />
+                <SettingsIcon />
+            </AppBar>
             <div className="editor-title">
                 {displayName}
                 <button
