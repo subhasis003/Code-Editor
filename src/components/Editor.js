@@ -1,10 +1,8 @@
 import "../App.css";
-import Box from '@material-ui/core/Box';
-import styled from 'styled-components';
-// import ArrowDropDownSharpIcon from "@mui/icons-material/ArrowDropDownSharp";
-import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
-// import SettingsSharpIcon from "@mui/icons-material/SettingsSharp";
-import SettingsIcon from '@material-ui/icons/Settings';
+import Box from "@material-ui/core/Box";
+import styled from "styled-components";
+import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
+import SettingsIcon from "@material-ui/icons/Settings";
 
 import "codemirror/lib/codemirror.css";
 import "codemirror/theme/material.css";

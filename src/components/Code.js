@@ -1,5 +1,5 @@
-import Box from '@material-ui/core/Box';
-import styled from 'styled-components';
+import Box from "@material-ui/core/Box";
+import styled from "styled-components";
 import Editor from "./Editor";
 import { useContext } from "react";
 
@@ -23,7 +23,6 @@ const Code = () => {
             <SplitPane
                 snapOffset={90}
                 allowResize="true"
-                // primary="first"
                 split="vertical"
                 minSize={100}
                 maxSize={1300}
@@ -32,6 +31,7 @@ const Code = () => {
                     width: "5px",
                     cursor: "col-resize",
                 }}
+                style={{ height: "50vh" }}
             >
                 <SplitPane
                     allowResize="true"
@@ -43,6 +43,7 @@ const Code = () => {
                         width: "5px",
                         cursor: "col-resize",
                     }}
+                    style={{ height: "50vh" }}
                 >
                     <Editor
                         language="xml"
