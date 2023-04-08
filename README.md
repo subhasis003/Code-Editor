@@ -21,7 +21,7 @@ This is a web-based code editor built using React. It allows users to write and 
 - Javascript
 ## Getting Started
 
-Link - https://online-c0de-editor.vercel.app/
+Live Demo - https://online-c0de-editor.vercel.app/
 
 To run this project locally, follow these steps:
 - Clone this repository using git clone https://github.com/subhasis003/codepen-clone.git
